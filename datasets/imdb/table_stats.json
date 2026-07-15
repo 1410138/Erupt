@@ -1,0 +1,217 @@
+{
+  "tables": {
+    "aka_name": {
+      "row_count": 792075,
+      "ndv": {
+        "id": 792075,
+        "person_id": 545677,
+        "name": 750151,
+        "imdb_index": 4,
+        "name_pcode_cf": 21856,
+        "name_pcode_nf": 21138,
+        "surname_pcode": 4311,
+        "md5sum": 750154
+      }
+    },
+    "aka_title": {
+      "row_count": 326019,
+      "ndv": {
+        "id": 326019,
+        "movie_id": 189397,
+        "title": 283660,
+        "imdb_index": 12,
+        "kind_id": 6,
+        "production_year": 128,
+        "phonetic_code": 19761,
+        "episode_of_id": 3,
+        "season_nr": 4,
+        "episode_nr": 5,
+        "note": 3340,
+        "md5sum": 310956
+      }
+    },
+    "cast_info": {
+      "row_count": 36244344,
+      "ndv": {
+        "id": 36244344,
+        "person_id": 4051810,
+        "movie_id": 2331601,
+        "person_role_id": 3140339,
+        "note": 715571,
+        "nr_order": 1094,
+        "role_id": 11
+      }
+    },
+    "char_name": {
+      "row_count": 2669659,
+      "ndv": {
+        "id": 2669659,
+        "name": 2669425,
+        "imdb_index": 6,
+        "imdb_id": 0,
+        "name_pcode_nf": 22904,
+        "surname_pcode": 17198,
+        "md5sum": 2669659
+      }
+    },
+    "comp_cast_type": {
+      "row_count": 4,
+      "ndv": {
+        "id": 4,
+        "kind": 4
+      }
+    },
+    "company_name": {
+      "row_count": 211037,
+      "ndv": {
+        "id": 211037,
+        "name": 202273,
+        "country_code": 215,
+        "imdb_id": 0,
+        "name_pcode_nf": 18134,
+        "name_pcode_sf": 17440,
+        "md5sum": 211037
+      }
+    },
+    "company_type": {
+      "row_count": 4,
+      "ndv": {
+        "id": 4,
+        "kind": 4
+      }
+    },
+    "complete_cast": {
+      "row_count": 135086,
+      "ndv": {
+        "id": 135086,
+        "movie_id": 93514,
+        "subject_id": 2,
+        "status_id": 2
+      }
+    },
+    "info_type": {
+      "row_count": 113,
+      "ndv": {
+        "id": 113,
+        "info": 113
+      }
+    },
+    "keyword": {
+      "row_count": 134132,
+      "ndv": {
+        "id": 134132,
+        "keyword": 134132,
+        "phonetic_code": 15481
+      }
+    },
+    "kind_type": {
+      "row_count": 7,
+      "ndv": {
+        "id": 7,
+        "kind": 7
+      }
+    },
+    "link_type": {
+      "row_count": 18,
+      "ndv": {
+        "id": 18,
+        "link": 18
+      }
+    },
+    "movie_companies": {
+      "row_count": 2609129,
+      "ndv": {
+        "id": 2609129,
+        "movie_id": 1087236,
+        "company_id": 234997,
+        "company_type_id": 2,
+        "note": 66450
+      }
+    },
+    "movie_info": {
+      "row_count": 14835720,
+      "ndv": {
+        "id": 14835720,
+        "movie_id": 2468825,
+        "info_type_id": 71,
+        "info": 2720930,
+        "note": 133610
+      }
+    },
+    "movie_info_idx": {
+      "row_count": 1380035,
+      "ndv": {
+        "id": 1380035,
+        "movie_id": 459925,
+        "info_type_id": 5,
+        "info": 146245,
+        "note": 0
+      }
+    },
+    "movie_keyword": {
+      "row_count": 4523930,
+      "ndv": {
+        "id": 4523930,
+        "movie_id": 476794,
+        "keyword_id": 134170
+      }
+    },
+    "movie_link": {
+      "row_count": 29997,
+      "ndv": {
+        "id": 29997,
+        "movie_id": 6411,
+        "linked_movie_id": 16169,
+        "link_type_id": 16
+      }
+    },
+    "name": {
+      "row_count": 4067688,
+      "ndv": {
+        "id": 4067688,
+        "name": 3522767,
+        "imdb_index": 179,
+        "imdb_id": 0,
+        "gender": 2,
+        "name_pcode_cf": 23583,
+        "name_pcode_nf": 23261,
+        "surname_pcode": 4671,
+        "md5sum": 4067688
+      }
+    },
+    "person_info": {
+      "row_count": 2963664,
+      "ndv": {
+        "id": 2963664,
+        "person_id": 550721,
+        "info_type_id": 22,
+        "info": 1925067,
+        "note": 49991
+      }
+    },
+    "role_type": {
+      "row_count": 12,
+      "ndv": {
+        "id": 12,
+        "role": 12
+      }
+    },
+    "title": {
+      "row_count": 2456218,
+      "ndv": {
+        "id": 2456218,
+        "title": 1454222,
+        "imdb_index": 24,
+        "kind_id": 6,
+        "production_year": 132,
+        "imdb_id": 0,
+        "phonetic_code": 23243,
+        "episode_of_id": 50187,
+        "season_nr": 96,
+        "episode_nr": 14787,
+        "series_years": 1406,
+        "md5sum": 2456218
+      }
+    }
+  }
+}

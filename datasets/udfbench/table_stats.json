@@ -1,0 +1,124 @@
+{
+  "tables": {
+    "artifact_abstracts": {
+      "row_count": 137454,
+      "ndv": {
+        "aa_artifactid": 137454,
+        "aa_abstract": 83549
+      }
+    },
+    "artifact_authorlists": {
+      "row_count": 127269,
+      "ndv": {
+        "al_artifactid": 127269,
+        "al_authorlist": 77887
+      }
+    },
+    "artifact_authors": {
+      "row_count": 1022184,
+      "ndv": {
+        "au_artifactid": 127269,
+        "au_affiliation": 17831,
+        "au_fullname": 475307,
+        "au_name": 46403,
+        "au_surname": 104753,
+        "au_rank": 3260,
+        "au_authorid": 319015
+      }
+    },
+    "artifact_charges": {
+      "row_count": 17057,
+      "ndv": {
+        "ac_artifactid": 17057,
+        "ac_amount": 12692,
+        "ac_currency": 1
+      }
+    },
+    "artifact_citations": {
+      "row_count": 15218,
+      "ndv": {
+        "acit_artifactid": 15218,
+        "acit_target": 5483,
+        "acit_citcount": 233
+      }
+    },
+    "artifacts": {
+      "row_count": 376152,
+      "ndv": {
+        "a_id": 376152,
+        "a_title": 372364,
+        "a_publisher": 8187,
+        "a_journal": 25137,
+        "a_date": 9479,
+        "a_year": 116,
+        "a_access_mode": 7,
+        "a_embargo_end_date": 1032,
+        "a_delayed": 1,
+        "a_authors": 633,
+        "a_source": 114358,
+        "a_abstract": 2,
+        "a_type": 4,
+        "a_peer_reviewed": 2,
+        "a_green": 2,
+        "a_gold": 2
+      }
+    },
+    "project_artifactcount": {
+      "row_count": 469604,
+      "ndv": {
+        "pac_projectid": 469604,
+        "pac_publications": 549,
+        "pac_datasets": 268,
+        "pac_software": 35,
+        "pac_other": 84
+      }
+    },
+    "projects": {
+      "row_count": 469604,
+      "ndv": {
+        "p_id": 469604,
+        "p_acronym": 75415,
+        "p_title": 434459,
+        "p_funder": 26,
+        "p_fundingstring": 469598,
+        "p_funding_lvl0": 371,
+        "p_funding_lvl1": 216,
+        "p_funding_lvl2": 151,
+        "p_ec39": 2,
+        "p_type": 9,
+        "p_startdate": 8973,
+        "p_enddate": 7608,
+        "p_start_year": 89,
+        "p_end_year": 79,
+        "p_duration": 684,
+        "p_haspubs": 2,
+        "p_numpubs": 549,
+        "p_daysforlastpub": 8523,
+        "p_delayedpubs": 327,
+        "p_callidentifier": 2234,
+        "p_code": 467056,
+        "p_totalcost": 14714,
+        "p_fundedamount": 204199,
+        "p_currency": 6
+      }
+    },
+    "projects_artifacts": {
+      "row_count": 628274,
+      "ndv": {
+        "pa_projectid": 272335,
+        "pa_artifactid": 376152,
+        "pa_provenance": 3
+      }
+    },
+    "views_stats": {
+      "row_count": 9686539,
+      "ndv": {
+        "vs_date": 127,
+        "vs_artifactid": 3989117,
+        "vs_source": 5,
+        "vs_repository_id": 240,
+        "vs_count": 1407
+      }
+    }
+  }
+}

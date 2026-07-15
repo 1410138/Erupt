@@ -1,0 +1,94 @@
+{
+    "tables": {
+      "artifact_abstracts": [
+        "aa_artifactid",
+        "aa_abstract"
+      ],
+      "artifact_authorlists": [
+        "al_artifactid",
+        "al_authorlist"
+      ],
+      "artifact_authors": [
+        "au_artifactid",
+        "au_affiliation",
+        "au_fullname",
+        "au_name",
+        "au_surname",
+        "au_rank",
+        "au_authorid"
+      ],
+      "artifact_charges": [
+        "ac_artifactid",
+        "ac_amount",
+        "ac_currency"
+      ],
+      "artifact_citations": [
+        "acit_artifactid",
+        "acit_target",
+        "acit_citcount"
+      ],
+      "artifacts": [
+        "a_id",
+        "a_title",
+        "a_publisher",
+        "a_journal",
+        "a_date",
+        "a_year",
+        "a_access_mode",
+        "a_embargo_end_date",
+        "a_delayed",
+        "a_authors",
+        "a_source",
+        "a_abstract",
+        "a_type",
+        "a_peer_reviewed",
+        "a_green",
+        "a_gold"
+      ],
+      "project_artifactcount": [
+        "pac_projectid",
+        "pac_publications",
+        "pac_datasets",
+        "pac_software",
+        "pac_other"
+      ],
+      "projects": [
+        "p_id",
+        "p_acronym",
+        "p_title",
+        "p_funder",
+        "p_fundingstring",
+        "p_funding_lvl0",
+        "p_funding_lvl1",
+        "p_funding_lvl2",
+        "p_ec39",
+        "p_type",
+        "p_startdate",
+        "p_enddate",
+        "p_start_year",
+        "p_end_year",
+        "p_duration",
+        "p_haspubs",
+        "p_numpubs",
+        "p_daysforlastpub",
+        "p_delayedpubs",
+        "p_callidentifier",
+        "p_code",
+        "p_totalcost",
+        "p_fundedamount",
+        "p_currency"
+      ],
+      "projects_artifacts": [
+        "pa_projectid",
+        "pa_artifactid",
+        "pa_provenance"
+      ],
+      "views_stats": [
+        "vs_date",
+        "vs_artifactid",
+        "vs_source",
+        "vs_repository_id",
+        "vs_count"
+      ]
+    }
+  }

@@ -1,0 +1,8 @@
+# Python version: 3.9.23
+torch==2.4.1+cu121
+tensorboard==2.13.0
+sqlglot==26.33.0
+duckdb==0.10.1
+psycopg2==2.9.6
+numpy==1.24.3
+radon==6.0.1
