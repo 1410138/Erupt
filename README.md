@@ -1,6 +1,6 @@
 # Erupt
 
-This is the artifact for the paper __Learned UDF Placement for Efficient Query Optimization__.
+This is the artifact for the paper __Erupt: Learned UDF Predicate Placement for Query Optimization__.
 
 ## Setup
 
