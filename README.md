@@ -55,4 +55,5 @@ python run_test.py --db_name imdb --algo ppo --model_path xxxx_xxxxxx_ppo_best_p
 
 - Opt-rank: Chaudhuri and Shim, [*Optimization of Queries with User-Defined Predicates*](https://doi.org/10.1145/320248.320249).
 - RTOS: [TsinghuaDatabaseGroup/RTOS](https://github.com/TsinghuaDatabaseGroup/AI4DBCode/tree/master/RTOS).
+- Athena: [DBGroup-SUSTech/Athena](https://github.com/DBGroup-SUSTech/Athena).
 - Graceful: [DataManagementLab/Graceful](https://github.com/DataManagementLab/Graceful).
